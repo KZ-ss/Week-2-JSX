@@ -164,6 +164,20 @@ body {
     background-color: #333;
 }
 
+.download-button.tertiary {
+    background-color: transparent;
+    border: 1px solid #c2c1ba;
+    color: #333;
+}
+
+.download-button.tertiary:hover {
+    background-color: #e6e5e0;
+}
+
+.download-button.tertiary:active {
+    background-color: #e6e5e0;
+}
+
 /* ==========================================================================
    Page label (debug / context badge)
    - Fixed to top center so it doesn't affect layout flow
